@@ -14,3 +14,7 @@ In today's technologically advanced world, the power of artificial intelligence 
 Our objective was to create a classifier trained on deep learning skills that could accurately translate a video displaying a spelled sign language word into its corresponding English word.
 Our approach involved training a classifier using a vast dataset of sign language images. These images encompassed a wide range of signs, each corresponding to a specific letter in English. By leveraging the inherent capabilities of deep learning, our classifier learned to discern the subtle variations in hand movements, positions, and finger spelling that characterize different sign language letters.
 In the following sections, we will delve deeper into the methodology, dataset, and evaluation metrics used in our project. We will also discuss the challenges encountered along the way and the future possibilities for expanding and enhancing our work. By leveraging the power of deep learning, our project aims to empower individuals with hearing impairments and foster inclusive communication in our increasingly interconnected world.
+
+<div id="header" align="center">
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/14.jpg" width="400"/>
+</div>
