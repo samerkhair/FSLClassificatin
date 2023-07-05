@@ -6,5 +6,5 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
 
 This is a class project for the Technion's EE046211 - Deep Learning course. 
 <div id="header" align="center">
-  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/3.png" width="1000"/>
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/3.png" width="500"/>
 </div>
