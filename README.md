@@ -16,8 +16,14 @@ Our approach involved training a classifier using a vast dataset of sign languag
 In the following sections, we will delve deeper into the methodology, dataset, and evaluation metrics used in our project. We will also discuss the challenges encountered along the way and the future possibilities for expanding and enhancing our work. By leveraging the power of deep learning, our project aims to empower individuals with hearing impairments and foster inclusive communication in our increasingly interconnected world.
 
 <div id="header" align="center">
-  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/16.jpg" width="500"/>
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/16.jpg" width="800"/>
 </div>
 
 # DataSet
 Our dataset is [Synthetic ASL Alphabet](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet), which contains 27,0300 sign images, 1000 for each sign and 1000 blank, and for each sign the images were divided as 900 for train set and 100 for test set, and we redivided them for 800 train set and 200 train set, totaling 21,600 images for training and 5,400 for test.
+
+<div id="header" align="left">
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/4.jpg" width="500"/>
+</div>
+
+Each image was resized to 256 × 256 by the transformers to fit the input of our model, and it was also rotated by (-20,20) and horizontally flipped with a probability of 0.5, generalizing it to left and right hand sign images, for example 
