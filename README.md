@@ -1,2 +1,2 @@
-# FSLClassificatin
+# FSLClassification
 Deep Learning Project
