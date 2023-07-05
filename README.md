@@ -18,3 +18,6 @@ In the following sections, we will delve deeper into the methodology, dataset, a
 <div id="header" align="center">
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/16.jpg" width="500"/>
 </div>
+
+# DataSet
+[Synthetic ASL Alphabet]([https://example.com](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet))
