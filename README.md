@@ -16,5 +16,5 @@ Our approach involved training a classifier using a vast dataset of sign languag
 In the following sections, we will delve deeper into the methodology, dataset, and evaluation metrics used in our project. We will also discuss the challenges encountered along the way and the future possibilities for expanding and enhancing our work. By leveraging the power of deep learning, our project aims to empower individuals with hearing impairments and foster inclusive communication in our increasingly interconnected world.
 
 <div id="header" align="center">
-  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/14.jpg" width="400"/>
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/15.jpg" width="500"/>
 </div>
