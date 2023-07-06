@@ -57,4 +57,16 @@ Moreover, our algorithm was primarily designed to analyze frames where the hand 
 
 By adhering to these criteria and constraints, we aimed to optimize the accuracy and reliability of our hand motion detection algorithm, facilitating the extraction of meaningful frames for further analysis and processing
 
+# Prediction Method
+
+After processing the video and obtaining the frame list, it's time to predict the signs using the classifier we developed. By leveraging the classifier and the output frame list, we can make predictions for each sign represented in the video.
+
+Between every two black frames, which indicate sign transitions, we applied our classifier to predict the sign within that specific frame. We stored these individual predictions in another list. Once we finished predicting all the frames for each sign and saved them in the list, we performed an analysis on this list.
+
+To improve accuracy, we implemented a technique to determine the final prediction for each sign. We examined the list of predictions for a given sign and identified the most frequently occurring prediction. This majority prediction was considered the final prediction for that particular sign.
+
+By adopting this approach, we aimed to enhance the accuracy of our overall system. Even if the classifier occasionally provided false predictions for specific frames, the final prediction for a sign would be based on the majority consensus from all the predicted frames within that sign.
+
+
+
 
