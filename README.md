@@ -23,7 +23,15 @@ In the following sections, we will delve deeper into the methodology, dataset, a
 Our dataset is [Synthetic ASL Alphabet](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet), which contains 27,0300 sign images, 1000 for each sign and 1000 blank, and for each sign the images were divided as 900 for train set and 100 for test set, and we redivided them for 800 train set and 200 train set, totaling 21,600 images for training and 5,400 for test.
 
 <div id="header" align="left">
-  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/4.jpg" width="500"/>
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/4.jpg" width="400"/>
 </div>
 
 Each image was resized to 256 × 256 by the transformers to fit the input of our model, and it was also rotated by (-20,20) and horizontally flipped with a probability of 0.5, generalizing it to left and right hand sign images, for example 
+
+<div id="header" align="center">
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/17.png" width="150"/>
+    <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/19.png" width="200"/>
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/18.jpg" width="100"/>
+
+</div>
+
