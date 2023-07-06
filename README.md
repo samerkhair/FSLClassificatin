@@ -9,6 +9,12 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/14.jpg" width="400"/>
 </div>
 
+<div id="badges" align="center">
+ <a href="https://youtu.be/LSdmXyExC1Q">
+    <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/23.png" alt="Youtube Badge" width="75"/>
+</a>
+</div>
+
 # Introduction
 In today's technologically advanced world, the power of artificial intelligence and deep learning has opened up numerous possibilities for improving communication and accessibility. One particular area where this innovation has made a significant impact is in the translation of sign language. Sign language is a rich and expressive form of communication used by deaf and hard-of-hearing individuals, but its interpretation can be challenging for those unfamiliar with its intricate gestures.
 Our objective was to create a classifier trained on deep learning skills that could accurately translate a video displaying a spelled sign language word into its corresponding English word.
@@ -68,7 +74,6 @@ To improve accuracy, we implemented a technique to determine the final predictio
 By adopting this approach, we aimed to enhance the accuracy of our overall system. Even if the classifier occasionally provided false predictions for specific frames, the final prediction for a sign would be based on the majority consensus from all the predicted frames within that sign.
 
 # Evaluation and Results
-https://youtu.be/LSdmXyExC1Q
 
 
 
