@@ -68,7 +68,12 @@ To improve accuracy, we implemented a technique to determine the final predictio
 By adopting this approach, we aimed to enhance the accuracy of our overall system. Even if the classifier occasionally provided false predictions for specific frames, the final prediction for a sign would be based on the majority consensus from all the predicted frames within that sign.
 
 # Evaluation and Results
+https://youtu.be/LSdmXyExC1Q
 
 
 
 # Future Works
+- Generalize the model to analyze videos – the sign language mostly built from a specific sign for every word, and not fingerspelling it.
+- Learning the videos and reduce the instructions.
+- Using our network to translate other sign languages besides English.
+
