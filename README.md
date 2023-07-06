@@ -36,15 +36,15 @@ Each image was resized to 256 × 256 by the transformers to fit the input of ou
 
 # Model Architecture
 
+#
 
+After building the Classifier, we are one step closer to achieving our goal. Now we want to interact with the video, learn it, and try to recognize when each sign has been produced in order to accurately split it between each sign and sign.
 
+# Video Processing 
+We utilized a hand motion detector algorithm to track the movement of the hand in our videos. Whenever we detected even the slightest movement, we discarded all the frames captured up to that point and replaced them with a black image. This approach ensured a clear distinction between signs. For each video, we stored its frames in a list. To signify transitions between signs, we inserted a black frame. However, due to imperfections in the hand motion detection technique, we had to further refine our process.
 
+To address this, we developed a mechanism where we analyzed the frames specific to each sign. We tallied the number of frames within a sign, and if it fell below 10 frames, we concluded that it was not a valid sign and discarded it. Our determination was based on observing that each sign typically consisted of at least 20 frames. By applying this criterion, we converted each fingerspelling video into a refined list of frames. This list only contained frames where the sign was clear, with black frames inserted between each sign transition.
 
-
-
-
-After Building the Classifier, we become one step closer to fullfiling our goal
-now we want to try and deal with the video, to learn it and try to to detect when each sign have been made to try and split it correctly between each sign and sign
-
+By implementing these refinements, we aimed to ensure that our resulting frame lists accurately represented the distinct signs while maintaining clarity during sign transitions.
 
 
