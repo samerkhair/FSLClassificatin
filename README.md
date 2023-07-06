@@ -30,7 +30,7 @@ Each image was resized to 256 × 256 by the transformers to fit the input of ou
 
 <div id="header" align="center">
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/17.png" width="150"/>
-    <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/19.png" width="200"/>
+    <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/19.jpg" width="200"/>
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/18.jpg" width="100"/>
 
 </div>
