@@ -38,7 +38,7 @@ Each image was resized to 256 × 256 by the transformers to fit the input of ou
 
 #
 
-After building the Classifier, we are one step closer to achieving our goal. Now we want to interact with the video, learn it, and try to recognize when each sign has been produced in order to accurately split it between each sign and sign.
+**After building the Classifier, we are one step closer to achieving our goal. Now we want to interact with the video, learn it, and try to recognize when each sign has been produced in order to accurately split it between each sign and sign.**
 
 # Video Processing 
 We utilized a hand motion detector algorithm to track the movement of the hand in our videos. Whenever we detected even the slightest movement, we discarded all the frames captured up to that point and replaced them with a black image. This approach ensured a clear distinction between signs. For each video, we stored its frames in a list. To signify transitions between signs, we inserted a black frame. However, due to imperfections in the hand motion detection technique, we had to further refine our process.
@@ -46,5 +46,15 @@ We utilized a hand motion detector algorithm to track the movement of the hand i
 To address this, we developed a mechanism where we analyzed the frames specific to each sign. We tallied the number of frames within a sign, and if it fell below 10 frames, we concluded that it was not a valid sign and discarded it. Our determination was based on observing that each sign typically consisted of at least 20 frames. By applying this criterion, we converted each fingerspelling video into a refined list of frames. This list only contained frames where the sign was clear, with black frames inserted between each sign transition.
 
 By implementing these refinements, we aimed to ensure that our resulting frame lists accurately represented the distinct signs while maintaining clarity during sign transitions.
+
+<div id="header" align="center">
+    <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/21.jpg" width="600"/>
+</div>
+
+In order for the algorithm to effectively operate, the video footage needed to adhere to specific requirements. The hand motions within the film should be swift and distinct, ensuring clear transitions between signs. To indicate a different sign, it was necessary to change the hand position accordingly.
+
+Moreover, our algorithm was primarily designed to analyze frames where the hand was prominently visible against a plain background. This condition enabled better differentiation and tracking of hand movements, minimizing potential distractions from the surrounding elements.
+
+By adhering to these criteria and constraints, we aimed to optimize the accuracy and reliability of our hand motion detection algorithm, facilitating the extraction of meaningful frames for further analysis and processing
 
 
