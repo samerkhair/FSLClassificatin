@@ -20,7 +20,7 @@ In the following sections, we will delve deeper into the methodology, dataset, a
 </div>
 
 # DataSet
-Our dataset is [Synthetic ASL Alphabet](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet), which contains 27,0300 sign images, 1000 for each sign and 1000 blank, and for each sign the images were divided as 900 for train set and 100 for test set, and we redivided them for 800 train set and 200 train set, totaling 21,600 images for training and 5,400 for test.
+Our dataset is [Synthetic ASL Alphabet](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet), which contains 27,000 sign images, 1000 for each sign and 1000 blank, and for each sign the images were divided as 900 for train set and 100 for test set, and we redivided them for 800 train set and 200 train set, totaling 21,600 images for training and 5,400 for test.
 
 <div id="header" align="left">
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/4.jpg" width="400"/>
