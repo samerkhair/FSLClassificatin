@@ -1,4 +1,4 @@
-![image](https://github.com/samerkhair/FSLClassification/assets/82342735/67400a33-8d8e-4bb8-8881-1642c01189b4)# FSLC - Fingerspelling Sign Language Classification 
+# FSLC - Fingerspelling Sign Language Classification 
 
 In this project, we used a classifier trained on deep learning skills to try to translate a video displaying a spelled sign language word to an English word.
 Given ten videos with ten different words spelled sign by sign, our classifier predicted almost all of them while failing on only two.
