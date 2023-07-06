@@ -26,12 +26,15 @@ Our dataset is [Synthetic ASL Alphabet](https://www.kaggle.com/datasets/lexset/s
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/4.jpg" width="400"/>
 </div>
 
-Each image was resized to 256 × 256 by the transformers to fit the input of our model, and it was also rotated by (-20,20) and horizontally flipped with a probability of 0.5, generalizing it to left and right hand sign images, for example 
+Each image was resized to 256 × 256 by the transformers to fit the input of our model, and it was also rotated by (-20,20) and horizontally flipped with a probability of 0.5, generalizing it to left and right hand sign images,Furthermore, we created other augmentations with Kornia, such as playing with the color of the photos with colorjitter, flipping all of the images, and changing the perspective they were shown in. These augmentations increased the size of our dataset and helped us generalize it more and more.
+
+**For example:** 
 
 <div id="header" align="center">
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/17.png" width="150"/>
     <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/19.jpg" width="200"/>
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/18.jpg" width="100"/>
-
+  
 </div>
+
 
