@@ -44,7 +44,7 @@ Each image was resized to 256 × 256 by the transformers to fit the input of ou
 
 #
 
-**After building the Classifier, we are one step closer to achieving our goal. Now we want to interact with the video, learn it, and try to recognize when each sign has been produced in order to accurately split it between each sign and sign.**
+**After building the Classifier, we are one step closer to achieving our goal. Now we want to interact with the video, analyze it, and try to recognize when each sign has been produced in order to accurately split it between each sign and sign.**
 
 # Video Processing 
 We utilized a hand motion detector algorithm to track the movement of the hand in our videos. Whenever we detected even the slightest movement, we discarded all the frames captured up to that point and replaced them with a black image. This approach ensured a clear distinction between signs. For each video, we stored its frames in a list. To signify transitions between signs, we inserted a black frame. However, due to imperfections in the hand motion detection technique, we had to further refine our process.
