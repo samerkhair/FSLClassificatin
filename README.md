@@ -65,7 +65,7 @@ The fc_layer module is also defined using nn.Sequential().
 - A dropout layer with a dropout probability of 0.1 is applied to prevent overfitting.
 - The flattened vector is passed through several linear layers with different output sizes, each followed by a non-linear activation function (PReLU or ReLU).
 - Dropout layers are applied after some linear layers to further prevent overfitting.
-- The final linear layer outputs a tensor of size 27, representing the predicted probabilities for each class (digits 0-9 and an additional class for no digit).
+- The final linear layer outputs a tensor of size 27, representing the predicted probabilities for each class.
   
 **Forward Function:**
 
