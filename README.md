@@ -42,6 +42,41 @@ Each image was resized to 256 × 256 by the transformers to fit the input of ou
 
 # Model Architecture
 
+The network architecture consists of three main parts: convolutional layers, fully connected layers, and the forward function.
+
+**Convolutional Layers:**
+
+The conv_layer module is defined using nn.Sequential(), which allows you to stack multiple layers sequentially.
+- The first layer is a convolutional layer with 3 input channels, 32 output channels, and a kernel size of 3x3. It applies convolution on the input image.
+- The output of the first convolutional layer is passed through Group Normalization (nn.GroupNorm) with num_groups groups.Group Normalization normalizes the activations
+  across the channels. 
+- A Parametric Rectified Linear Unit (PReLU) activation function is applied after the Group Normalization.
+- The next layer is another convolutional layer with 32 input channels, 64 output channels, and a kernel size of 3x3.
+- Another PReLU activation is applied.
+- A max-pooling layer with a kernel size of 2x2 and stride 2 is used to downsample the feature map.
+- This pattern is repeated for two more sets of convolutional layers, gradually increasing the number of output channels.
+- The final output from the conv_layer module is a tensor representing the learned features from the input image.
+  
+**Fully Connected Layers:**
+
+The fc_layer module is also defined using nn.Sequential().
+
+- The input tensor from the convolutional layers is flattened using x.view(x.size(0), -1), which converts the tensor into a 1D vector.
+- A dropout layer with a dropout probability of 0.1 is applied to prevent overfitting.
+- The flattened vector is passed through several linear layers with different output sizes, each followed by a non-linear activation function (PReLU or ReLU).
+- Dropout layers are applied after some linear layers to further prevent overfitting.
+- The final linear layer outputs a tensor of size 27, representing the predicted probabilities for each class (digits 0-9 and an additional class for no digit).
+  
+**Forward Function:**
+
+The forward function defines the computation flow of the network.
+- The input x is passed through the conv_layer module, which applies the convolutional layers and returns the learned features.
+- The output of the conv_layer is flattened.
+- The flattened tensor is then passed through the fc_layer module, which applies the fully connected layers to obtain the final predictions.
+- The output tensor is returned.
+
+This CNN architecture uses Group Normalization instead of Batch Normalization (commented out lines). Group Normalization divides the channels into groups and computes mean and variance statistics within each group, which helps to normalize the activations in a computationally efficient way.
+The network architecture combines convolutional layers for feature extraction with fully connected layers for classification. The PReLU and ReLU activation functions introduce non-linearity to the model, allowing it to learn complex patterns and make predictions.
 #
 
 **After building the Classifier, we are one step closer to achieving our goal. Now we want to interact with the video, analyze it, and try to recognize when each sign has been produced in order to accurately split it between each sign and sign.**
