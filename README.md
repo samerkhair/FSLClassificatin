@@ -82,23 +82,16 @@ The network architecture combines convolutional layers for feature extraction wi
 - Batch Size:
   - Batch size refers to the number of training examples propagated through the network in a single forward/backward pass.
   - In this case, the batch size is set to 128 using batch_size = 128.
-A larger batch size can provide faster training time due to parallel computations but requires more memory. Smaller batch sizes may lead to slower training but can help generalize better.
-  - The appropriate batch size depends on the available memory, the size of the dataset, and the computational resources.
-
+    
 - Learning Rate:
   - Learning rate determines the step size at each iteration during the optimization process.
   - In this case, the learning rate is set to 1e-4 (0.0001) using learning_rate = 1e-4.
-  - A higher learning rate can lead to faster convergence but risks overshooting the optimal solution. A lower learning rate may take more time to converge but can yield
-    more precise results.
-  - The optimal learning rate is problem-dependent and often requires experimentation to find the best value.
     
  - Epochs:
    - An epoch represents a complete pass through the entire dataset during training.
    - In this case, the number of epochs is set to 15 using epochs = 15.
    - Training for multiple epochs allows the model to see the entire dataset multiple times, improving its ability to learn patterns and generalize.
-   - The number of epochs needed depends on the complexity of the task and the size of the dataset. It is typically determined through experimentation, monitoring
-     validation performance, and early stopping techniques.
-     
+
 - Loss Criterion:
   - The loss criterion defines the objective function used to measure the difference between predicted and true labels during training.
   - In this case, the CrossEntropyLoss criterion is used, which is suitable for multi-class classification problems.
@@ -108,7 +101,6 @@ A larger batch size can provide faster training time due to parallel computation
 - Optimizer:
   - The optimizer is responsible for updating the model's parameters based on the computed gradients during backpropagation.
   - In this case, the Adam optimizer is used with the model's parameters and the specified learning rate.
-  - Adam is an adaptive optimization algorithm that adjusts the learning rate for each parameter individually, based on the first and second moments of the gradients.
   - It is a popular choice due to its efficiency and effectiveness in a wide range of problems.
 
 **We initialized the hyperparameters, including the batch size, learning rate, and number of epochs, based on values obtained from a tutorial that trained a similar model on a different dataset. Although these initial values were not specifically tailored to our dataset, they provided a good starting point for our experiments. It is worth noting that the model achieved a high accuracy even with these initial hyperparameter values, indicating the potential effectiveness of the architecture.**
