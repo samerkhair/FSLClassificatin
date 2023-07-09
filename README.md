@@ -34,7 +34,7 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
   - [Evaluation and Results](https://github.com/samerkhair/FSLClassification/blob/main/README.md#evaluation-and-results)
   - [Usage](https://github.com/samerkhair/FSLClassification/blob/main/README.md#usage)
   - [Future Works](https://github.com/samerkhair/FSLClassification/blob/main/README.md#future-works)
-  - [Usage](https://github.com/samerkhair/FSLClassification/edit/main/README.md#references)
+  - [References](https://github.com/samerkhair/FSLClassification/edit/main/README.md#references)
 
 
 # Introduction
