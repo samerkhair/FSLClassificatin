@@ -137,7 +137,11 @@ To improve accuracy, we implemented a technique to determine the final predictio
 By adopting this approach, we aimed to enhance the accuracy of our overall system. Even if the classifier occasionally provided false predictions for specific frames, the final prediction for a sign would be based on the majority consensus from all the predicted frames within that sign.
 
 # Evaluation and Results
+Down below will be displayed some graphs in order to show the model results, and here we show the Evaluations from the last epoch.
 
+<div id="header" align="center">
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/16.jpg" width="800"/>
+</div>
 
 
 # Future Works
