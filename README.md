@@ -140,8 +140,13 @@ By adopting this approach, we aimed to enhance the accuracy of our overall syste
 Down below will be displayed some graphs in order to show the model results, and here we show the Evaluations from the last epoch.
 
 <div id="header" align="center">
-  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/16.jpg" width="800"/>
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/99.jpg" width="700"/>
 </div>
+
+<div id="header" align="center">
+  <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/100.jpg" width="700"/>
+</div>
+  
 
 
 # Future Works
