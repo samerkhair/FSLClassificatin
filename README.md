@@ -155,8 +155,8 @@ you have to change some paths in order to make it work.
 
 |  | file | description |
 | -------- | -------- | -------- |
-|1|[ASLClassifier.ipynb](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet) | this file builds tha classifier   |
-|2|[video_prediction.ipynb](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet)   | loading the classifier and predicting the video   |
+|1|[ASLClassifier.ipynb](https://github.com/samerkhair/FSLClassification/blob/main/code/ASLClassifier.ipynb) | this file builds tha classifier   |
+|2|[video_prediction.ipynb](https://github.com/samerkhair/FSLClassification/blob/main/code/video_prediction.ipynb)   | loading the classifier and predicting the video   |
 
   
 
