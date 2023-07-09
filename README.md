@@ -24,7 +24,16 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
   </a>
 </div>
 
-- [FSLC - Fingerspelling Sign Language Classification](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet)
+#
+- [FSLC - Fingerspelling Sign Language Classification](https://github.com/samerkhair/FSLClassification/blob/main/README.md#fslc---fingerspelling-sign-language-classification)
+  - [Introduction](https://github.com/samerkhair/FSLClassification/blob/main/README.md#introduction)
+  - [DataSet](https://github.com/samerkhair/FSLClassification/blob/main/README.md#dataset)
+  - [Model Architecture](https://github.com/samerkhair/FSLClassification/blob/main/README.md#model-architecture)
+  - [Video Processing](https://github.com/samerkhair/FSLClassification/blob/main/README.md#video-processing)
+  - [Prediction Method](https://github.com/samerkhair/FSLClassification/blob/main/README.md#prediction-method)
+  - [Evaluation and Results](https://github.com/samerkhair/FSLClassification/blob/main/README.md#evaluation-and-results)
+  - [Usage](https://github.com/samerkhair/FSLClassification/blob/main/README.md#usage)
+  - [Future Works](https://github.com/samerkhair/FSLClassification/blob/main/README.md#future-works)
 
 
 # Introduction
