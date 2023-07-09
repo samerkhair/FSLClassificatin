@@ -173,7 +173,7 @@ Down below will be displayed some graphs in order to show the model results, and
 
 # Usage
 in order to run our project, you should download all the files from the code directory, and follow the instructions written there.
-you have to change some paths in order to make it work.
+you have to change some paths that are specifed in order to make it work.
 
 |  | file | description |
 | -------- | -------- | -------- |
