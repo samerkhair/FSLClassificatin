@@ -148,6 +148,16 @@ Down below will be displayed some graphs in order to show the model results, and
   <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/101.jpg" width="700"/>
 
 </div>
+
+# Usage
+in order to run our project, you should download all the files from the code directory, and follow the instructions written there.
+you have to change some paths in order to make it work.
+
+|  | file | description |
+| -------- | -------- | -------- |
+|1|[ASLClassifier.ipynb](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet) | this file builds tha classifier   |
+|2|[video_prediction.ipynb](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet)   | loading the classifier and predicting the video   |
+
   
 
 
