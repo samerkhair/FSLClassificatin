@@ -34,6 +34,7 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
   - [Evaluation and Results](https://github.com/samerkhair/FSLClassification/blob/main/README.md#evaluation-and-results)
   - [Usage](https://github.com/samerkhair/FSLClassification/blob/main/README.md#usage)
   - [Future Works](https://github.com/samerkhair/FSLClassification/blob/main/README.md#future-works)
+  - [Usage]()
 
 
 # Introduction
@@ -186,4 +187,9 @@ you have to change some paths in order to make it work.
 - Generalize the model to analyze videos – the sign language mostly built from a specific sign for every word, and not fingerspelling it.
 - Learning the videos and reduce the instructions.
 - Using our network to translate other sign languages besides English.
+
+# References
+- [Synthetic ASL Alphabet Classify – MONAI Pytorch](https://www.kaggle.com/code/stpeteishii/synthetic-asl-alphabet-classify-monai-pytorch/notebook)
+- [ee046211_tutorial_06_convnets_visual_tasks](https://github.com/taldatech/ee046211-deep-learning/blob/main/ee046211_tutorial_06_convnets_visual_tasks.ipynb)
+
 
