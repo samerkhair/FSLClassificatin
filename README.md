@@ -14,10 +14,17 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
     <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/23.png" alt="Youtube Badge" width="75"/>
 </a>
 </div>
+
 <div id="badges" align="center">
-  [Samer Khair](https://github.com/samerkhair) 
-  [Alam Shomary](https://github.com/alamshomary)
+  <a href = "https://github.com/samerkhair">
+    Samer Khair 
+  </a>
+  <a href = "https://github.com/alamshomary">
+      Alam Shomary
+  </a>
 </div>
+
+- [FSLC - Fingerspelling Sign Language Classification](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet)
 
 
 # Introduction
