@@ -14,6 +14,11 @@ Given ten videos with ten different words spelled sign by sign, our classifier p
     <img src="https://github.com/samerkhair/FSLClassification/blob/main/images/23.png" alt="Youtube Badge" width="75"/>
 </a>
 </div>
+<div id="badges" align="center">
+  [Samer Khair](https://github.com/samerkhair) 
+  [Alam Shomary](https://github.com/alamshomary)
+</div>
+
 
 # Introduction
 In today's technologically advanced world, the power of artificial intelligence and deep learning has opened up numerous possibilities for improving communication and accessibility. One particular area where this innovation has made a significant impact is in the translation of sign language. Sign language is a rich and expressive form of communication used by deaf and hard-of-hearing individuals, but its interpretation can be challenging for those unfamiliar with its intricate gestures.
